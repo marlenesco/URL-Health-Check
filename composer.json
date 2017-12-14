@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": ">=5.6.0",
+        "swiftmailer/swiftmailer": "^v5.4",
+        "ext-curl": "*"
+    }
+}
