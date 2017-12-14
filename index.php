@@ -13,7 +13,7 @@ else
 }
 
 if (!filter_var($url, FILTER_VALIDATE_URL)) {
-    exit("The scrit requires an URL parameter, ex: php index.php -uhttp://www.google.com\n\n");
+    exit("The script requires a valid URL as parameter, ex: php index.php -uhttp://www.google.com\n\n");
 }
 
 $handle = curl_init($url);
